@@ -2,6 +2,7 @@ import './App.css';
 import Greet from './components/Greet';
 import { Component } from 'react';
 import Welcome from './components/Welcome';
+import Hello from './components/Hello';
 
 class App extends Component{
 
@@ -11,6 +12,7 @@ class App extends Component{
 
     <Greet />
     <Welcome />
+    <Hello/>
 
     </div>
     );
