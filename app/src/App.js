@@ -10,9 +10,11 @@ class App extends Component{
     return (
     <div  className='App'>
 
-    <Greet />
-    <Welcome />
-    <Hello/>
+    {/* <Greet />
+    <Welcome /> */}
+    <Hello name= 'Obakeng'> You are a star.</Hello>
+    <Hello name = 'Dusani;'/>
+    <Hello name = 'Kagiso'/>
 
     </div>
     );
